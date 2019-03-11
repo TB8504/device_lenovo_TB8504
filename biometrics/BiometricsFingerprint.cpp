@@ -44,7 +44,7 @@ BiometricsFingerprint *BiometricsFingerprint::sInstance = nullptr;
 BiometricsFingerprint::BiometricsFingerprint() : mClientCallback(nullptr), mDevice(nullptr) {
     sInstance = this; // keep track of the most recent instance
 
-    mDevice = getWrapperService(BiometricsFingerprint::notify);
+    mDevice = openHal();
 
     if (!mDevice) {
         ALOGE("Can't open HAL module");
