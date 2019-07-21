@@ -272,8 +272,33 @@ etc/firmware/a506_zap.b02:vendor/firmware/variant/apq/a506_zap.b02
 etc/firmware/a506_zap.elf:vendor/firmware/variant/apq/a506_zap.elf
 etc/firmware/a506_zap.mdt:vendor/firmware/variant/apq/a506_zap.mdt
 
+# Fingerprint
+bin/gx_fpd:vendor/bin/gx_fpd
+lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.default.so
+lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
+lib64/libfp_client.so:vendor/lib64/libfp_client.so
+lib64/libfpservice.so:vendor/lib64/libfpservice.so
+
+# TB-8704X Fingerprint firmware
+etc/firmware/goodixfp.b00:vendor/firmware/variant/msm/goodixfp.b00
+etc/firmware/goodixfp.b01:vendor/firmware/variant/msm/goodixfp.b01
+etc/firmware/goodixfp.b02:vendor/firmware/variant/msm/goodixfp.b02
+etc/firmware/goodixfp.b03:vendor/firmware/variant/msm/goodixfp.b03
+etc/firmware/goodixfp.b04:vendor/firmware/variant/msm/goodixfp.b04
+etc/firmware/goodixfp.b05:vendor/firmware/variant/msm/goodixfp.b05
+etc/firmware/goodixfp.b06:vendor/firmware/variant/msm/goodixfp.b06
+etc/firmware/goodixfp.mdt:vendor/firmware/variant/msm/goodixfp.mdt
+
+# TB-8704F Fingerprint firmware
+etc/firmware/goodixfp.b00:vendor/firmware/variant/apq/goodixfp.b00
+etc/firmware/goodixfp.b01:vendor/firmware/variant/apq/goodixfp.b01
+etc/firmware/goodixfp.b02:vendor/firmware/variant/apq/goodixfp.b02
+etc/firmware/goodixfp.b03:vendor/firmware/variant/apq/goodixfp.b03
+etc/firmware/goodixfp.b04:vendor/firmware/variant/apq/goodixfp.b04
+etc/firmware/goodixfp.b05:vendor/firmware/variant/apq/goodixfp.b05
+etc/firmware/goodixfp.b06:vendor/firmware/variant/apq/goodixfp.b06
+etc/firmware/goodixfp.mdt:vendor/firmware/variant/apq/goodixfp.mdt
 
 # Graphics firmware common
 etc/firmware/a530_pfp.fw:vendor/firmware/a530_pfp.fw
 etc/firmware/a530_pm4.fw:vendor/firmware/a530_pm4.fw
-
