@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "biometrics.fingerprint@2.0-service.tbx704"
+#define LOG_TAG "biometrics.fingerprint@2.0-service.tb8704"
 
 #include <binder/ProcessState.h>
 
