@@ -17,10 +17,10 @@
 # inherit from common tb-common
 -include device/lenovo/tb-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/lenovo/TB8704
+DEVICE_PATH := device/lenovo/TB8504
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := TB-8704X,TB-8704F,TB-8704N,TB-8704V,TB-8704,TB8704,tb-8704x,tb-8704f,tb-8704n,tb-8704v,tb-8704,tb_8704x,tb_8704f,tb_8704n,tb_8704v,tb_8704
+TARGET_OTA_ASSERT_DEVICE := TB-8504X,TB-8504F,tb-8504x,tb-8504f,tb_8504
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -29,15 +29,12 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_TS_MAKEUP := true
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_tb8704
-TARGET_RECOVERY_DEVICE_MODULES := libinit_tb8704
+TARGET_INIT_VENDOR_LIB := libinit_tb8504
+TARGET_RECOVERY_DEVICE_MODULES := libinit_tb8504
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_tb8704_defconfig
+TARGET_KERNEL_CONFIG := lineageos_tb8504_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4080218112
@@ -47,4 +44,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 9921059840 # 9921076224 - 16384
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
--include vendor/lenovo/TB8704/BoardConfigVendor.mk
+-include vendor/lenovo/TB8504/BoardConfigVendor.mk

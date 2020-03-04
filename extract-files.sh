@@ -18,10 +18,10 @@
 set -e
 
 # Required!
-export DEVICE=TB8704
+export DEVICE=TB8504
 export DEVICE_COMMON=tb-common
 export VENDOR=lenovo
 
-export DEVICE_BRINGUP_YEAR=2019
+export DEVICE_BRINGUP_YEAR=2020
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
