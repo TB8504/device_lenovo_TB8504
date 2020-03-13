@@ -1,0 +1,5 @@
+# LED
+genfscon sysfs /devices/soc/soc:gpio-leds/leds                         u:object_r:sysfs_leds:s0
+
+# Power supply
+genfscon sysfs   /devices/soc/78b6000.i2c/i2c-2/2-0014/power_supply   u:object_r:sysfs_battery_supply:s0
