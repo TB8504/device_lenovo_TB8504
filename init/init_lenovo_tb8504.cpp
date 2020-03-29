@@ -65,7 +65,7 @@ static void set_fingerprint()
 		property_override("ro.build.description", "msm8937_64-user 8.1.0 OPM1.171019.019 236 release-keys");
 		property_override("ro.build.product", "TB-8504F");
 		property_override_dual("ro.product.device", "ro.vendor.product.device", "TB-8504F");
-		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/TB-8504F/TB-8504F:8.1.0/OPM1.171019.019/8504F_S001011_181016_ROW:user/release-keys");
+		property_override_dual("ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/TB-8504F/TB-8504F:8.1.0/OPM1.171019.019/8504F_S001011_181016_ROW:user/release-keys");
 		property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo TB-8504F");
 	//for installing stock OTA with TWRP
 		property_override("ro.product.ota.model", "Lenovo TB-8504F");
@@ -73,7 +73,7 @@ static void set_fingerprint()
 		property_override("ro.build.description", "msm8937_64-user 8.1.0 OPM1.171019.019 7 release-keys");
 		property_override("ro.build.product", "TB-8504X");
 		property_override_dual("ro.product.device", "ro.vendor.product.device", "TB-8504X");
-		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/TB-8504X/TB-8504X:8.1.0/OPM1.171019.019/8504X_S001031_191204_ROW:user/release-keys");
+		property_override_dual("ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/TB-8504X/TB-8504X:8.1.0/OPM1.171019.019/8504X_S001031_191204_ROW:user/release-keys");
 		property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo TB-8504X");
 		//for installing stock OTA with TWRP
 		property_override("ro.product.ota.model", "Lenovo TB-8504X");
