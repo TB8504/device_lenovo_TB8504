@@ -1,3 +1,4 @@
 allow zygote theme_prop:file { open read getattr };
 allow zygote device:file { open write };
-allow zygote exported_camera_prop:file { getattr open read };
+
+get_prop(zygote, exported_camera_prop);
