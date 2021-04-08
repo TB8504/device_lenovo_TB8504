@@ -318,13 +318,6 @@ vendor/lib/libmmcamera_gc5025a_eeprom.so
 vendor/lib/libmmcamera_hi556_eeprom.so
 vendor/lib/libmmcamera_qtech_ov8856_eeprom.so
 
-# Camera caf hal (can be replaced by oss) from stock
-vendor/lib/hw/camera.msm8937.so
-vendor/lib/libmm-qcamera.so
-vendor/lib/libmmcamera_interface.so
-vendor/lib/libmmjpeg_interface.so
-vendor/lib/libqomx_core.so
-
 # Camera firmware from stock
 vendor/firmware/cpp_firmware_v1_5_0.fw
 
