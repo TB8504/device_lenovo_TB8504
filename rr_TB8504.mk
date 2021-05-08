@@ -27,14 +27,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Product API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lenovo/TB8504/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_TB8504
+PRODUCT_NAME := rr_TB8504
 PRODUCT_DEVICE := TB8504
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-8504X
