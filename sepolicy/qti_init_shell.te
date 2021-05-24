@@ -1,3 +1,5 @@
+dontaudit vendor_qti_init_shell self:capability dac_override;
+
 set_prop(qti_init_shell, ctl_start_prop);
 
 allow qti_init_shell sysfs:file write;
