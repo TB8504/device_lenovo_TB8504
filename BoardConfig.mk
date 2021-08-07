@@ -28,6 +28,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_TS_MAKEUP := true
+TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
+    /vendor/bin/mm-qcamera-daemon=23
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_lenovo_tb8504
