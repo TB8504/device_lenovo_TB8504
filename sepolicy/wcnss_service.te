@@ -1,0 +1,4 @@
+set_prop(wcnss_service, wifi_prop);
+
+allow wcnss_service wifi_data_file:file { open getattr write setattr };
+allow wcnss_service wifi_data_file:dir search;

@@ -1,0 +1,2 @@
+allow bootanim sysfs_kgsl:dir search;
+allow bootanim sysfs_kgsl:file { open read getattr };

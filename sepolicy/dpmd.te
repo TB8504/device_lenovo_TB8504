@@ -1,0 +1,4 @@
+type dpmd, domain, mlstrustedsubject;
+
+allow dpmd device:file { open write };
+allow dpmd diag_device:chr_file { read write };

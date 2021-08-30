@@ -1,0 +1,10 @@
+type adsprpc_prop, property_type;
+
+allow priv_app sysfs_android_usb:file open;
+allow priv_app firmware_file:filesystem getattr;
+allow priv_app device:dir open;
+allow priv_app proc_interrupts:file open;
+allow priv_app adsprpc_prop:file open;
+allow priv_app sysfs:dir open;
+allow priv_app proc_modules:file open;
+allow priv_app proc:file open;
