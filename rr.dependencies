@@ -1,6 +1,10 @@
 [
   {
-    "repository": "android_device_lenovo_tb-common",
-    "target_path": "device/lenovo/tb-common"
+    "repository": "vendor_lenovo_TB8504",
+    "target_path": "vendor/lenovo/TB8504"
+  },
+  {
+    "repository": "kernel_lenovo_msm8917",
+    "target_path": "kernel_lenovo_msm8917"
   }
 ]
