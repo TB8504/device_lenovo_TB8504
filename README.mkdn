@@ -5,8 +5,8 @@
 | Feature                 | Specification                                      |
 | :---------------------- | :------------------------------------------------- |
 | CPU                     | Quad-core 1.4 GHz Cortex-A53                       |
-| Chipset                 | MediaTek MT6750T                                   |
-| GPU                     | Qualcomm MSM8917 Snapdragon 425                    |
+| Chipset                 | Qualcomm MSM8917 Snapdragon 425                    |
+| GPU                     | Adreno 308                                         |
 | Memory                  | 2GB                                                |
 | Shipped Android Version | 7.1.1                                              |
 | Latest Android Version  | 8.1                                                |
