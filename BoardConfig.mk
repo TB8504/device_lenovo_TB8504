@@ -61,7 +61,7 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/msm8953
 TARGET_KERNEL_CONFIG := lineageos_tb8504_defconfig
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
