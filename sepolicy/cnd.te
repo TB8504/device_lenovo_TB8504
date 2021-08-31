@@ -1,0 +1,2 @@
+allow cnd wifi_prop:file { open read getattr };
+allow cnd diag_device:chr_file { read write };
