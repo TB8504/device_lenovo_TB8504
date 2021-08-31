@@ -1,0 +1,4 @@
+<resources>
+            <!-- Allow devices to enforce the H265 encoder for screen recordings -->
+            <bool name="config_useNewScreenRecEncoder">false</bool>
+</resources>

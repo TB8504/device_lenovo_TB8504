@@ -1,0 +1,9 @@
+binder_use(mm-qcamerad);
+
+allow mm-qcamerad sensorservice_service:service_manager find;
+
+allow mm-qcamerad system_server:unix_stream_socket { read write };
+
+allow mm-qcamerad camera_prop:file read;
+allow mm-qcamerad property_socket:sock_file write;
+allow mm-qcamerad sysfs_kgsl:dir search;
