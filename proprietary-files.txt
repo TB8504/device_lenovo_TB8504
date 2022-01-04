@@ -343,7 +343,9 @@ vendor/lib64/vendor.qti.hardware.perf@1.0.so|978a16bc6f27967f6345c5b51386d507685
 # Peripheral manager - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 vendor/bin/pm-proxy|56e9bdaa39270aa4456c9995a8a9e4618ba616a6
 vendor/bin/pm-service|7cbca1671529a805177f11f3f72defdbbe48a61c
-vendor/lib64/libperipheral_client.so|e2fbf94c589dbf8ae6c544a34441783ae9db3a08
+
+# Peripheral manager - from beholder - Nokia/Beholder_00WW/AOP_sprout:10/QKQ1.190725.002/00WW_5_13B:user/release-keys
+vendor/lib64/libperipheral_client.so|9475db86b218e2fd3b788993ff42cb79b7197c21
 
 # Power-off alarm - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 -vendor/app/PowerOffAlarm/PowerOffAlarm.apk|3fbc64ee84b17eaaf5f9002b58f4615216de0389
