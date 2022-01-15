@@ -1,0 +1,17 @@
+# animation: num_cycles, first_frame_repeats, animation_file
+animation: 5 1 charger/battery_scale
+
+# fail: animation_file
+fail: charger/battery_fail
+
+# percent_display: text_percent_pos_x, text_percent_pos_y, color_b, color_g, color_r, color_a, font_file
+percent_display: c c 255 255 255 255 charger/main_font
+
+# frame: disp_time min_level max_level
+frame: 750  0  19
+frame: 750  0  39
+frame: 750  0  59
+frame: 750  0  79
+frame: 750 80  95
+frame: 750  0 100
+
