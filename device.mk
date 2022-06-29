@@ -253,6 +253,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+	
+# Package Installer
+PRODUCT_PACKAGES += \
+    PackageInstaller
 
 # Permissions
 PRODUCT_COPY_FILES += \
