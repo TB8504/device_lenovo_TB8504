@@ -397,7 +397,6 @@ vendor/lib/libqmi_cci.so|a921e84ec500f7cfb7fe88a4ffba149581410a44
 -app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 framework/qcrilhook.jar|784df5e6aa9df0127700b9a6f1083440ebfac057
-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|d1d3adfe6eff32a3013e146317324029181e3c4a
 vendor/bin/ATFWD-daemon|390c764ab1b425e836f2b98cf039086d6729d751
 vendor/bin/netmgrd|48d3b006b85cf3b30ec5c4b972e64f2003c52e60
