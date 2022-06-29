@@ -2,3 +2,5 @@ set_prop(qti_init_shell, ctl_start_prop);
 
 allow qti_init_shell sysfs:file write;
 allow qti_init_shell sysfs_net:file write;
+
+set_prop(qti_init_shell, graphics_vulkan_prop)
