@@ -301,6 +301,7 @@ PRODUCT_PACKAGES += \
     init.class_late.sh \
     init.lenovo.rc \
     init.target.rc \
+    init.recovery.qcom.rc \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
