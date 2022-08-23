@@ -363,7 +363,19 @@ PRODUCT_BOOT_JARS += \
 
 # Halium
 PRODUCT_PACKAGES += \
-    libhfd_api
+    libhfd_api \
+    libnetutils \
+    libxml2 \
+    miniafservice \
+    libminisf \
+    rild \
+    libmedia_compat_layer \
+    minimediaservice \
+    libaudioflingerglue \
+    android.hardware.bluetooth@1.0 \
+    android.hardware.radio@1.0 \
+    android.hardware.contexthub@1.0 \
+    android.hardware.media.omx@1.0-service
 
 # Call the proprietary setup
 $(call inherit-product, vendor/lenovo/TB8504/TB8504-vendor.mk)
