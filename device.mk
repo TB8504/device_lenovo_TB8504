@@ -361,5 +361,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Halium
+PRODUCT_PACKAGES += \
+    libhfd_api
+
 # Call the proprietary setup
 $(call inherit-product, vendor/lenovo/TB8504/TB8504-vendor.mk)
