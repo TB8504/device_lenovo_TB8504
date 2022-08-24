@@ -1,0 +1,8 @@
+TB8504:
+  DeviceType: tablet
+  PrettyName: Lenovo TAB4 8
+  GridUnit: 14
+  SupportedOrientations:
+    - Portrait
+    - Landscape
+    - InvertedLandscape

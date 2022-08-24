@@ -380,5 +380,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/lenovo/TB8504/seccomp/crash_dump.arm.policy:system/etc/seccomp_policy/crash_dump.arm.policy
 
+### Ubuntu Touch ###
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ubuntu/deviceinfo/halium.yaml:system/halium/etc/deviceinfo/devices/halium.yaml
+### End Ubuntu Touch ###
+
 # Call the proprietary setup
 $(call inherit-product, vendor/lenovo/TB8504/TB8504-vendor.mk)
