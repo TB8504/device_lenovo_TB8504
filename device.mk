@@ -367,6 +367,7 @@ PRODUCT_PACKAGES += \
     libmedia_compat_layer \
     minimediaservice \
     libaudioflingerglue \
+    libprotobuf-cpp-full \
     android.hardware.bluetooth@1.0 \
     android.hardware.radio@1.0 \
     android.hardware.contexthub@1.0 \
