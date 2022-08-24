@@ -382,6 +382,7 @@ PRODUCT_COPY_FILES += \
 
 ### Ubuntu Touch ###
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ubuntu/70-TB8504.rules:/system/halium/etc/udev/rules.d/70-TB8504.rules \
     $(LOCAL_PATH)/ubuntu/deviceinfo/halium.yaml:system/halium/etc/deviceinfo/devices/halium.yaml \
     $(LOCAL_PATH)/ubuntu/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf
 ### End Ubuntu Touch ###
