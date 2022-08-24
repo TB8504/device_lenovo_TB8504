@@ -1246,3 +1246,9 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     user system
     group system
     disabled
+
+service init_wlan /system/bin/sh /system/etc/init_wlan.sh
+    class main
+    user root
+    group root
+    oneshot
