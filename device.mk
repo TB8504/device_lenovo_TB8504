@@ -380,8 +380,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ubuntu/70-android.rules:/system/halium/lib/udev/rules.d/70-android.rules \
     $(LOCAL_PATH)/ubuntu/deviceinfo/halium.yaml:system/halium/etc/deviceinfo/devices/halium.yaml \
-    $(LOCAL_PATH)/ubuntu/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf \
-    $(LOCAL_PATH)/ubuntu/mount-android.sh:system/halium/usr/sbin/mount-android.sh
+    $(LOCAL_PATH)/ubuntu/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf
 
 PRODUCT_PACKAGES += init_wlan.sh
 ### End Ubuntu Touch ###
