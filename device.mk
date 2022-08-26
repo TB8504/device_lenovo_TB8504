@@ -412,6 +412,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/charger/images/main_font.png:$(TARGET_ROOT_OUT)/root/res/images/charger/main_font.png \
     $(LOCAL_PATH)/charger/values/animation.txt:$(TARGET_ROOT_OUT)/root/res/values/charger/animation.txt
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ubuntu/setupusb:system/bin/setupusb \
+    $(LOCAL_PATH)/ubuntu/mtp-state.conf:system/halium/etc/init/mtp-state.conf \
+    $(LOCAL_PATH)/ubuntu/mtp-server.conf:system/halium/usr/share/upstart/sessions/mtp-server.conf
+
 PRODUCT_PACKAGES += init_wlan.sh
 ### End Ubuntu Touch ###
 
