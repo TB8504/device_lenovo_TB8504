@@ -403,7 +403,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ubuntu/70-android.rules:/system/halium/lib/udev/rules.d/70-android.rules \
     $(LOCAL_PATH)/ubuntu/deviceinfo/halium.yaml:system/halium/etc/deviceinfo/devices/halium.yaml \
     $(LOCAL_PATH)/ubuntu/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf \
-    $(LOCAL_PATH)/ubuntu/ril_subscription.conf:system/halium/etc/ofono/ril_subscription.conf
+    $(LOCAL_PATH)/ubuntu/ril_subscription.conf:system/halium/etc/ofono/ril_subscription.conf \
+    $(LOCAL_PATH)/ubuntu/disable-qtwebengine-gpu.sh:system/halium/etc/profile.d/disable-qtwebengine-gpu.sh
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/charger/images/battery_fail.png:$(TARGET_ROOT_OUT)/root/res/images/charger/battery_fail.png \
