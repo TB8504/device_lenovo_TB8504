@@ -414,8 +414,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ubuntu/setupusb:system/bin/setupusb \
-    $(LOCAL_PATH)/ubuntu/mtp-state.conf:system/halium/etc/init/mtp-state.conf \
-    $(LOCAL_PATH)/ubuntu/mtp-server.conf:system/halium/usr/share/upstart/sessions/mtp-server.conf
+    $(LOCAL_PATH)/ubuntu/mtp-state.conf:system/halium/etc/init/mtp-state.conf
 
 PRODUCT_PACKAGES += init_wlan.sh
 ### End Ubuntu Touch ###
