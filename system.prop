@@ -1,0 +1,2 @@
+# BPF
+ro.kernel.ebpf.supported=false
