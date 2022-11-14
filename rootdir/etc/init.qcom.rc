@@ -74,6 +74,9 @@ on init
     # E: Failed to open /dev/qseecom device
     chmod 0666 /dev/qseecom
 
+    # E QSEECOMAPI: Error::Cannot open ION device
+    chmod 0666 /dev/ion
+
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
