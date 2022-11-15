@@ -83,6 +83,9 @@ on init
     # W libprocessgroup: Failed to open /dev/cpuset/system-background/tasks: Permission denied
     chmod 0666 /dev/cpuset/system-background/tasks
 
+    # W SDM     : HWRotator::Open: open /dev/mdss_rotator failed err = 13 errstr = Permission denied
+    chmod 0666 /dev/mdss_rotator
+
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
