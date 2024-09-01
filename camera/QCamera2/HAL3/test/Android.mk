@@ -43,6 +43,6 @@ LOCAL_VENDOR_MODULE := true
 
 LOCAL_CFLAGS += -Wall -Wextra
 
-LOCAL_CFLAGS += -std=c++11 -std=gnu++0x
+LOCAL_CFLAGS += -std=c++17 -std=gnu++17
 
 include $(BUILD_EXECUTABLE)
