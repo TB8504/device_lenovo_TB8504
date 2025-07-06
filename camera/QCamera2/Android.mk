@@ -120,6 +120,8 @@ LOCAL_C_INCLUDES += \
         $(call project-path-for,qcom-display)/libqservice
 LOCAL_C_INCLUDES += \
         $(call project-path-for,qcom-display)/libqdutils
+LOCAL_C_INCLUDES += \
+        $(call project-path-for,qcom-display)/libgralloc
 LOCAL_SHARED_LIBRARIES := liblog libhardware libutils libcutils libdl libsync
 LOCAL_SHARED_LIBRARIES += libmmcamera_interface libmmjpeg_interface libui libcamera_metadata
 LOCAL_SHARED_LIBRARIES += libqdMetaData libqdutils libqservice libbinder
